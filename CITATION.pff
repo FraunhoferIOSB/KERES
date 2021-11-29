@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Hellmund"
+  given-names: "Tobias"
+  orcid: "https://orcid.org/0000-0002-4932-9267"
+- family-names: "Moßgraber"
+  given-names: "Jürgen"
+  orcid: "https://orcid.org/0000-0002-2614-4980"
+- family-names: "Jürgen"
+  given-names: "Reuter"
+
+
+title: ""
+version: 
+doi: 
+date-released: 2021-11-30
+url: ""
