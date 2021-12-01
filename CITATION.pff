@@ -11,8 +11,7 @@ authors:
   given-names: "Reuter"
 
 
-title: ""
-version: 
-doi: 
+title: "The KERES-Ontology"
+version: 1
 date-released: 2021-11-30
-url: ""
+url: "https://github.com/FraunhoferIOSB/KERES/blob/main/keres.owl"
