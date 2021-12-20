@@ -1,29 +1,79 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#"
      xml:base="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:keres-kb="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#">
-        <rdfs:comment xml:lang="de">&lt;p&gt;
-Die KERES-Ontologie.
-&lt;/p&gt;
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ontology of the KERES Project</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KERES Ontology</dc:title>
+        <terms:license rdf:resource="https://opensource.org/licenses/MIT"/>
+        <rdfs:comment xml:lang="de">&lt;h1&gt;KERES&lt;/h1&gt;
 
 &lt;p&gt;
-https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-hintergrund/audio-schaeden-an-kulturguetern-durch-das-klima-100.html
+Die KERES-Ontologie wird im Rahmen des Projekts KERES entwickelt.  Aufbauend auf der &lt;a href=&quot;https://github.com/FraunhoferIOSB/HERACLES/&quot;&gt;HERACLES-Ontologie&lt;/a&gt; beschreibt sie formal die Domänen, die zur Unterstützung des Krisenmanagements und des Schutzes von Kulturerbe gegen die Bedrohungen durch den Klimawandel notwendig sind.
+&lt;/p&gt;
+
+&lt;h1&gt;Kontakt&lt;/h1&gt;
+
+&lt;p&gt;
+Für weitere Informationen kontaktieren Sie bitte &lt;a href=&quot;mailto:tobias.hellmund@iosb.fraunhofer.de&quot;&gt;Tobias Hellmund&lt;/a&gt; oder &lt;a href=&quot;mailto:juergen.mossgraber@iosb.fraunhofer.de&quot;&gt;Jürgen Moßgraber&lt;/a&gt; oder &lt;a href=&quot;mailto:juergen.reuter@iosb.fraunhofer.de&quot;&gt;Jürgen Reuter&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h1&gt;Autoren&lt;/h1&gt;
+
+&lt;p&gt;
+Diese Ontologie wird entwickelt von Tobias Hellmund, Jürgen Moßgraber und Jürgen Reuter.  Da dieses Artefakt weiter entwickelt wird, können ohne weitere Ankündigung Änderungen vorgenommen werden.
+&lt;/p&gt;
+
+&lt;h1&gt;Lizenz&lt;/h1&gt;
+
+&lt;p&gt;
+Diese Ontologie wird lizensiert unter der &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h1&gt;Presseecho&lt;/h1&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-hintergrund/audio-schaeden-an-kulturguetern-durch-das-klima-100.html&quot;&gt;Schäden an Kulturgütern durch das Klima - WDR 5 Scala - Hintergrund - WDR 5 - WDR Audiothek - Mediathek - WDR&lt;/a&gt;
 &lt;/p&gt;</rdfs:comment>
-        <rdfs:comment xml:lang="en">&lt;p&gt;
-The KERES ontology.
-&lt;/p&gt;
+        <rdfs:comment xml:lang="en">&lt;h1&gt;KERES&lt;/h1&gt;
 
 &lt;p&gt;
-https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-hintergrund/audio-schaeden-an-kulturguetern-durch-das-klima-100.html
+The KERES Ontology is being developed in the project KERES.  Built upon the &lt;a href=&quot;https://github.com/FraunhoferIOSB/HERACLES/&quot;&gt;HERACLES Ontology&lt;/a&gt;, it formally describes the domains required to foster crisis management and cultural heritage protection against the threats of clime change.
+&lt;/p&gt;
+
+&lt;h1&gt;Contact&lt;/h1&gt;
+
+&lt;p&gt;
+For further information, please contact &lt;a href=&quot;mailto:tobias.hellmund@iosb.fraunhofer.de&quot;&gt;Tobias Hellmund&lt;/a&gt; or &lt;a href=&quot;mailto:juergen.mossgraber@iosb.fraunhofer.de&quot;&gt;Jürgen Moßgraber&lt;/a&gt; or &lt;a href=&quot;mailto:juergen.reuter@iosb.fraunhofer.de&quot;&gt;Jürgen Reuter&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h1&gt;Authors&lt;/h1&gt;
+
+&lt;p&gt;
+This ontology is being  developed by Tobias Hellmund, Jürgen Moßgraber and Jürgen Reuter.  Since it is an artefact under development, changes might occur.
+&lt;/p&gt;
+
+&lt;h1&gt;License&lt;/h1&gt;
+
+&lt;p&gt;
+This ontology is licensed under &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h1&gt;In the Press&lt;/h1&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-hintergrund/audio-schaeden-an-kulturguetern-durch-das-klima-100.html&quot;&gt;Schäden an Kulturgütern durch das Klima - WDR 5 Scala - Hintergrund - WDR 5 - WDR Audiothek - Mediathek - WDR&lt;/a&gt;
 &lt;/p&gt;</rdfs:comment>
         <rdfs:label xml:lang="en">KERES Ontology</rdfs:label>
         <rdfs:label xml:lang="de">KERES-Ontologie</rdfs:label>
+        <owl:versionInfo>1.0.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -36,6 +86,24 @@ https://www1.wdr.de/mediathek/audio/wdr5/wdr5-scala-hintergrund/audio-schaeden-a
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -275,6 +343,7 @@ Source: https://en.wikipedia.org/wiki/Translation_(geometry)
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ComputerModel_dependsOn_ComputerModel -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ComputerModel_dependsOn_ComputerModel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ComputerModel"/>
         <rdfs:range rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ComputerModel"/>
         <rdfs:comment>&lt;p&gt;
@@ -867,6 +936,7 @@ Recommended action of this document.
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredQuality_isQualifiedBy_Scale">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredValue_isMeasuredIn_ScaleOrUnit"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredQuantity"/>
         <rdfs:range rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Scale"/>
         <rdfs:label xml:lang="en">is qualified by</rdfs:label>
         <rdfs:label xml:lang="de">wird qualifiziert durch</rdfs:label>
@@ -878,6 +948,7 @@ Recommended action of this document.
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredQuantity_isQuantifiedBy_UnitOfMeasure">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredValue_isMeasuredIn_ScaleOrUnit"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredQuantity"/>
         <rdfs:range rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#UnitOfMeasure"/>
         <rdfs:label xml:lang="en">is quantified by</rdfs:label>
         <rdfs:label xml:lang="de">wird quantifiziert in</rdfs:label>
@@ -889,6 +960,14 @@ Recommended action of this document.
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredValue_isMeasuredIn_ScaleOrUnit">
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MeasuredQuantity"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Scale"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#UnitOfMeasure"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
         <rdfs:label xml:lang="en">is measured in</rdfs:label>
         <rdfs:label xml:lang="de">wird gemessen in</rdfs:label>
     </owl:ObjectProperty>
@@ -998,6 +1077,7 @@ Indicates the Location where a measurement takes place.
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Organization_comprehends_Organization -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Organization_comprehends_Organization">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Organization"/>
         <rdfs:range rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Organization"/>
         <rdfs:comment>&lt;p&gt;
@@ -2371,6 +2451,7 @@ The order of the bookmark entries within a bookmark folder is defined by increas
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_has95thPercentileIndexOfExtremeDailyPrecipitation_precipitation">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Tagesniederschlag, dessen Höhe an 5% aller Tage im Jahr mit Niederschlag über 1 mm überschritten wird.
@@ -2389,6 +2470,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_has99thPercentileIndexOfExtremeDailyPrecipitation_precipitation">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Tagesniederschlag, dessen Höhe an 1% aller Tage im Jahr mit Niederschlag über 1 mm überschritten wird.
@@ -2407,6 +2489,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasAmountOfPrecipitation_precipitation">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Die Niederschlagswerte werden auf Basis von täglichen Niederschlagsmengen berechnet und als durchschnittliche monatliche Niederschlagssummen bezogen aufs Jahr und die Jahreszeiten in mm pro Monat angegeben. Sie beinhalten sowohl flüssigen als auch festen Niederschlag, also Regen und Schnee. Die jahreszeitlichen Niederschlagsmengen werden für das meteorologische Jahr berechnet (siehe Erläuterungen zur Temperatur).
@@ -2425,6 +2508,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasAnnualAverageWindSpeed_speed">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Mittlere Windgeschwindigkeit im Jahr in m/s.
@@ -2443,6 +2527,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasAverageGroundTemperatureAutumn_temperature">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Die Temperatur ist hier die bodennahe Lufttemperatur (2 m über Grund). Die Werte für Jahresmittel und Jahreszeiten werden auf Basis der Tagesmittelwerte der Temperatur berechnet. Die Werte für die Jahreszeiten werden für das meteorologische Jahr berechnet: Die Temperatur für den Winter ist der Mittelwert aller Tage in den Monaten Dezember, Januar, Februar; für das Frühjahr in den Monaten März, April, Mai; für den Sommer in den Monaten Juni, Juli, August; und für den Herbst in den Monaten September, Oktober, November.
@@ -2461,6 +2546,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasAverageGroundTemperatureSpring_temperature">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Die Temperatur ist hier die bodennahe Lufttemperatur (2 m über Grund). Die Werte für Jahresmittel und Jahreszeiten werden auf Basis der Tagesmittelwerte der Temperatur berechnet. Die Werte für die Jahreszeiten werden für das meteorologische Jahr berechnet: Die Temperatur für den Winter ist der Mittelwert aller Tage in den Monaten Dezember, Januar, Februar; für das Frühjahr in den Monaten März, April, Mai; für den Sommer in den Monaten Juni, Juli, August; und für den Herbst in den Monaten September, Oktober, November.
@@ -2479,6 +2565,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasAverageGroundTemperatureSummer_temperature">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 Die Temperatur ist hier die bodennahe Lufttemperatur (2 m über Grund). Die Werte für Jahresmittel und Jahreszeiten werden auf Basis der Tagesmittelwerte der Temperatur berechnet. Die Werte für die Jahreszeiten werden für das meteorologische Jahr berechnet: Die Temperatur für den Winter ist der Mittelwert aller Tage in den Monaten Dezember, Januar, Februar; für das Frühjahr in den Monaten März, April, Mai; für den Sommer in den Monaten Juni, Juli, August; und für den Herbst in den Monaten September, Oktober, November.
@@ -2497,6 +2584,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasAverageGroundTemperatureWinter_temperature">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Die Temperatur ist hier die bodennahe Lufttemperatur (2 m über Grund). Die Werte für Jahresmittel und Jahreszeiten werden auf Basis der Tagesmittelwerte der Temperatur berechnet. Die Werte für die Jahreszeiten werden für das meteorologische Jahr berechnet: Die Temperatur für den Winter ist der Mittelwert aller Tage in den Monaten Dezember, Januar, Februar; für das Frühjahr in den Monaten März, April, Mai; für den Sommer in den Monaten Juni, Juli, August; und für den Herbst in den Monaten September, Oktober, November.
@@ -2515,6 +2603,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndex_index">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateParameter_parameter"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Ein Klimaindex ist hier zu verstehen als eine berechnete Größe, die dazu verwendet werden kann, den Zustand und die Veränderung des Klimasystems zu beschreiben. Das Klima an einem Ort beschreibt den mittleren Zustand der Atmosphäre über einen längeren Zeitraum von zum Beispiel Monaten oder Jahren. Änderungen am Klima gehen viel langsamer vor sich als beim Wetter, das sich täglich stark ändern kann.
@@ -2533,8 +2622,15 @@ Quelle: https://icdc.cen.uni-hamburg.de/climate-indices.html
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateParameter_parameter"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#double"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Ein Umweltindikator ist ein methodisches Konstrukt, das auf messbare Ersatzgrößen (Indicans) zurückgreift, um einen ansonsten schwer greifbaren Umwelt-Sachverhalt (das Indicandum) zu beschreiben.
 &lt;/p&gt;
@@ -2555,8 +2651,14 @@ Siehe auch: Climate Whishlist, Kotova, Gerics
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateParameter_parameter">
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#double"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
         <rdfs:comment xml:lang="de">&lt;h1&gt;Klimaklassifikation nach Troll und Paffen&lt;/h1&gt;
 
 &lt;p&gt;
@@ -2576,6 +2678,7 @@ Quelle: https://de.wikipedia.org/wiki/Effektive_Klimaklassifikation
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimaticWaterBalance_balance">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Jahresmittel der täglichen Differenz von Niederschlag und Verdunstung [mm/Tag].
@@ -2594,6 +2697,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasMaximumDurationOfHeatWaves_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Maximale Dauer [in Tagen] von Perioden aufeinanderfolgender Tage mit einer Tagesmaximumtemperatur über 30 °C.
@@ -2612,6 +2716,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfDaysAbove5DegreesCentigrade_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl an Tagen pro Jahr mit einer Tagesmitteltemperatur größer als 5 °C. Diese Tage werden gelegentlich auch als Vegetationstage bezeichnet. Um zu beantworten, ob die Vegetation an einem bestimmten Tag wächst, sind jedoch noch andere Faktoren entscheidend, z.B. Bodenfeuchte, Strahlung und Nährstoffverfügbarkeit.
@@ -2630,6 +2735,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfDaysWithPrecipitationAmountGreaterThan20mm_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage pro Jahr, an denen die Niederschlagsmenge (Regen und Schnee) von 20 mm erreicht oder überschritten wird.
@@ -2648,6 +2754,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfDryDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage pro Jahr, an denen die Niederschlagsmenge (Regen und Schnee) weniger als 1 mm beträgt.
@@ -2666,6 +2773,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfDryHotDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage im ausgewählten Zeitraum, die sowohl Hitzetage als auch Tage mit sehr geringer Bodenfeuchte sind (die Bodenfeuchte nur an 20% aller Tage in einem Referenzzeitraum (1971-2000)). Die Kombination von Hitze und Trockenheit ist für Pflanzen besonders gefährlich, da ein Mangel an kühlender Verdunstung zu Hitzeschäden führen kann.
@@ -2684,6 +2792,7 @@ Quelle: https://adapter-projekt.org/klima-produkte/klimakarten-browser.html
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfFrostDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage pro Jahr mit einer Tagesminimumtemperatur geringer als 0 °C.
@@ -2702,6 +2811,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfHotDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl an Tagen pro Jahr mit einer Tagesmaximumtemperatur von mehr als 30 °C.
@@ -2720,6 +2830,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfIceDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage pro Jahr mit einer Tagesmaximumtemperatur geringer als 0 °C.
@@ -2738,6 +2849,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfLateFrostDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage pro Jahr mit einer Tagesminimumtemperatur geringer als 0 °C zwischen dem 1. April und dem 30. Juni.
@@ -2756,6 +2868,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfSultryDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl der Tage pro Jahr mit einem Wasserdampf-Partialdruck größer als 18,8 hPa. Der Dampfdruck wird aus Tageswerten der bodennahen Lufttemperatur und der relativen Luftfeuchte mittels der Magnusformel berechnet.
@@ -2774,6 +2887,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfSummerDays_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 Anzahl an Tagen pro Jahr mit einer Tagesmaximumtemperatur von mehr als 25 °C.
@@ -2792,6 +2906,7 @@ Quelle: https://rotenburg.bund.net/fileadmin/rotenburg/Meldungen/klimaausblick_l
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasNumberOfTropicalNights_count">
         <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel_hasClimateIndicator_indicator"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ClimateModel"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Anzahl an Tagen pro Jahr mit einer Minimumtemperatur von mehr als 20 °C.
@@ -4716,23 +4831,6 @@ Ersetzt „Asset Representation Type„“ aus heracles.owl.
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#DataType"/>
         <rdfs:label xml:lang="en">Audio Data</rdfs:label>
         <rdfs:label xml:lang="de">Audiodaten</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#AudioOrVideoRecording -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#AudioOrVideoRecording">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MobileMaterialCulturalAsset"/>
-        <rdfs:comment xml:lang="de">&lt;p&gt;
-Als Tonaufnahme oder Tonaufzeichnung im engeren, technischen Sinn bezeichnet man die Aufzeichnung von Schall, also von Geräuschen, Tönen, Musik und Sprache, mit Audiorekordern zur späteren Wiedergabe. Sie ist wesentlicher Teil der Signalverarbeitungskette in der Tontechnik, unterschieden nach Aufzeichnungs-, Speicher- und Wiedergabeverfahren. Die Aufzeichnung kann mechanisch (Rillen in Walzen, Schallplatten oder auf anderen geeigneten Feststoffen), magnetisch (Tonband), optisch (Lichtton von Kinofilmen) oder auch digital erfolgen, Letzteres auf magnetischen (Floppy Disk, Festplatte, DAT) oder optischen (CD, DVD) Medien oder auch auf unbeweglichen digitalen Speichern (Solid-State-Drive).
-&lt;/p&gt;
-
-&lt;p&gt;
-Quelle: https://de.wikipedia.org/wiki/Tonaufnahme
-&lt;/p&gt;</rdfs:comment>
-        <rdfs:label xml:lang="en">Audio or Video Recording</rdfs:label>
-        <rdfs:label xml:lang="de">Bild- oder Tonaufzeichnung</rdfs:label>
     </owl:Class>
     
 
@@ -7534,7 +7632,7 @@ Quelle: http://www.das-erdbeben.de/vorhersage.htm
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#EconomicProperty">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MaterialProperty"/>
-        <rdfs:label xml:lang="en">Economic Value</rdfs:label>
+        <rdfs:label xml:lang="en">Economic Property</rdfs:label>
         <rdfs:label xml:lang="de">ökonomische Werkstoffkenngröße</rdfs:label>
     </owl:Class>
     
@@ -8413,9 +8511,9 @@ TODO: Rückmeldung von Peter erfragen, was für über-regionale Stiftungen gibt 
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Fraunhofer-Gesellschaft -->
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#FraunhoferGesellschaft -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Fraunhofer-Gesellschaft">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#FraunhoferGesellschaft">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ResearchSociety"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 See: https://www.fraunhofer.de/
@@ -9071,6 +9169,23 @@ Quelle: https://de.wikipedia.org/wiki/Hydrant
     
 
 
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#HydrodynamicScour -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#HydrodynamicScour">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MaterialAging"/>
+        <rdfs:comment xml:lang="en">&lt;p&gt;
+Hydrodynamic scour is the removal of sediment such as silt, sand and gravel from around the base of obstructions to the flow in the sea, rivers and canals. Scour, caused by fast flowing water, can carve out scour holes, compromising the integrity of a structure. It is an interaction between the hydrodynamics and the geotechnical properties of the substrate. It is a notable cause of bridge failure and a problem with most marine structures supported by the seabed in areas of significant tidal and ocean current. It can also affect biological ecosystems and heritage assets.
+&lt;/p&gt;
+
+&lt;p&gt;
+Source: https://en.wikipedia.org/wiki/Hydrodynamic_scour
+&lt;/p&gt;</rdfs:comment>
+        <rdfs:label xml:lang="en">Hydrodynamic Scour</rdfs:label>
+        <rdfs:label xml:lang="de">Unterspülung</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Hydrolysis -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Hydrolysis">
@@ -9138,9 +9253,9 @@ Quelle: https://www.spektrum.de/lexikon/physik/ionenstrahlanalyse/7469
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ICP-OES -->
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ICPOES -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ICP-OES">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ICPOES">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#GDOES"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Spezialfall von GD-OES
@@ -9155,9 +9270,9 @@ Auch bekannt als „Atomemissionspektrometrie“.
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#IR-ATR -->
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#IRATR -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#IR-ATR">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#IRATR">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#InfraredSpectroscopy"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Attenuated Total Reflection (ATR) = abgeschwächte Totalreflektion
@@ -10616,9 +10731,9 @@ Usage purpose of a material.
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Max-Planck-Institute -->
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MaxPlanckInstitute -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Max-Planck-Institute">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MaxPlanckInstitute">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ResearchInstitution"/>
         <rdfs:label xml:lang="en">Max-Planck Institute</rdfs:label>
         <rdfs:label xml:lang="de">Max-Planck-Institut</rdfs:label>
@@ -12701,6 +12816,26 @@ Quelle: https://de.wikipedia.org/wiki/Raman-Spektroskopie
     
 
 
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Recording -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Recording">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MobileMaterialCulturalAsset"/>
+        <rdfs:comment xml:lang="de">&lt;p&gt;
+Als Tonaufnahme oder Tonaufzeichnung im engeren, technischen Sinn bezeichnet man die Aufzeichnung von Schall, also von Geräuschen, Tönen, Musik und Sprache, mit Audiorekordern zur späteren Wiedergabe. Sie ist wesentlicher Teil der Signalverarbeitungskette in der Tontechnik, unterschieden nach Aufzeichnungs-, Speicher- und Wiedergabeverfahren. Die Aufzeichnung kann mechanisch (Rillen in Walzen, Schallplatten oder auf anderen geeigneten Feststoffen), magnetisch (Tonband), optisch (Lichtton von Kinofilmen) oder auch digital erfolgen, Letzteres auf magnetischen (Floppy Disk, Festplatte, DAT) oder optischen (CD, DVD) Medien oder auch auf unbeweglichen digitalen Speichern (Solid-State-Drive).
+&lt;/p&gt;
+
+&lt;p&gt;
+Quelle: https://de.wikipedia.org/wiki/Tonaufnahme
+&lt;/p&gt;</rdfs:comment>
+        <rdfs:comment>&lt;p&gt;
+TODO: Split class into subclasses &quot;Audio Recording&quot; and &quot;Video Recording&quot;.
+&lt;/p&gt;</rdfs:comment>
+        <rdfs:label xml:lang="de">Aufzeichnung</rdfs:label>
+        <rdfs:label xml:lang="en">Recording</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#RedevelopmentInstructions -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#RedevelopmentInstructions">
@@ -13154,7 +13289,6 @@ To establish a basis for comparing diverse environmental risks and for ranking p
 vorhandene oder zu erstellende Beurteilung
 &lt;/p&gt;</rdfs:comment>
         <rdfs:label xml:lang="de">Risikobeurteilung</rdfs:label>
-        <rdfs:label>Risk Assessment</rdfs:label>
         <rdfs:label xml:lang="en">Risk Assessment</rdfs:label>
     </owl:Class>
     
@@ -13223,7 +13357,6 @@ Quelle: https://www.grin.com/document/215858
 &lt;/p&gt;</rdfs:comment>
         <rdfs:label xml:lang="de">Risikomanagement</rdfs:label>
         <rdfs:label xml:lang="en">Risk Management</rdfs:label>
-        <rdfs:label>Risk management</rdfs:label>
     </owl:Class>
     
 
@@ -13689,23 +13822,6 @@ Siehe auch: http://www.schwetzinger-festspiele.de/
 &lt;img src=&quot;https://interlude-cdn-blob-prod.azureedge.net/interlude-blob-storage-prod/2019/04/SWR-Schwetzinger-apr-15-homepage.jpg&quot; alt=&quot;Flyer Schwetzinger SWR Festpiele 2019&quot; style=&quot;width:304px;height:160px;max-width:100%&quot;/&gt;</rdfs:comment>
         <rdfs:label xml:lang="en">Schwetzingen Festival</rdfs:label>
         <rdfs:label xml:lang="de">Schwetzinger Festspiele</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Scour -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Scour">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#MaterialAging"/>
-        <rdfs:comment xml:lang="en">&lt;p&gt;
-Hydrodynamic scour is the removal of sediment such as silt, sand and gravel from around the base of obstructions to the flow in the sea, rivers and canals. Scour, caused by fast flowing water, can carve out scour holes, compromising the integrity of a structure. It is an interaction between the hydrodynamics and the geotechnical properties of the substrate. It is a notable cause of bridge failure and a problem with most marine structures supported by the seabed in areas of significant tidal and ocean current. It can also affect biological ecosystems and heritage assets.
-&lt;/p&gt;
-
-&lt;p&gt;
-Source: https://en.wikipedia.org/wiki/Hydrodynamic_scour
-&lt;/p&gt;</rdfs:comment>
-        <rdfs:label xml:lang="en">Scour</rdfs:label>
-        <rdfs:label xml:lang="de">Unterspülung</rdfs:label>
     </owl:Class>
     
 
@@ -14831,9 +14947,9 @@ Organische Materialcharakterisierung
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TGA-FTIR -->
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TGAFTIR -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TGA-FTIR">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TGAFTIR">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ThermalAnalysis"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Analyse von Verbindungen
@@ -15475,6 +15591,7 @@ TODO: nichts Spezielles gefunden im Internet.
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfBuilding -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfBuilding">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 A building, or edifice, is a structure with a roof and walls standing more or less permanently in one place, such as a house or factory. Buildings come in a variety of sizes, shapes, and functions, and have been adapted throughout history for a wide number of factors, from building materials available, to weather conditions, land prices, ground conditions, specific uses, and aesthetic reasons. To better understand the term building compare the list of nonbuilding structures.
 &lt;/p&gt;
@@ -15510,6 +15627,7 @@ Quelle: https://de.wikipedia.org/wiki/Geb%C3%A4ude
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfClimate -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfClimate">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 Climate (/ˈklaɪmət/ klahy-mit) is the long-term pattern of weather in an area, typically averaged over a period of 30 years. More rigorously, it is the mean and variability of meteorological variables over a time spanning from months to millions of years. Some of the meteorological variables that are commonly measured are temperature, humidity, atmospheric pressure, wind, and precipitation. In a broader sense, climate is the state of the components of the climate system, which includes the ocean, land, and ice on Earth. The climate of a location is affected by its latitude/longitude, terrain, and altitude, as well as nearby water bodies and their currents.
 &lt;/p&gt;
@@ -15553,6 +15671,7 @@ Quelle: https://de.wikipedia.org/wiki/Klima
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfCrisis -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfCrisis">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 A crisis (plural: &quot;crises&quot;; adjectival form: &quot;critical&quot;) is any event or period that will lead, or may lead, to an unstable and dangerous situation affecting an individual, group, or all of society. Crises are negative changes in the human or environmental affairs, especially when they occur abruptly, with little or no warning. More loosely, a crisis is a testing time or an emergency.
 &lt;/p&gt;
@@ -15584,6 +15703,7 @@ Quelle: https://de.wikipedia.org/wiki/Krise
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfCulturalAsset -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfCulturalAsset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 A heritage asset is an item that has value because of its contribution to a nation’s society, knowledge and/or culture. They are usually physical assets, but some countries also use the term in relation to intangible social and spiritual inheritance. The term is found in several contexts:
 
@@ -15625,6 +15745,7 @@ Quelle: https://de.wikipedia.org/wiki/Kulturgut
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfLaw -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfLaw">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Recht bezeichnet die Gesamtheit genereller Verhaltensregeln, die von der Gemeinschaft gewährleistet werden. Solche Verhaltensnormen entstehen entweder als Gewohnheitsrecht, indem Regeln, die von der Gemeinschaft als verbindlich akzeptiert werden, fortdauernd befolgt werden, oder als gesetztes („positives“) Recht, das von staatlichen oder überstaatlichen Gesetzgebungsorganen oder von satzungsgebenden Körperschaften geschaffen wird. Das Recht umfasst damit alle Regeln zur Konfliktverhütung und -lösung, damit ein geordnetes und friedliches Miteinander möglich ist, weil sie von allen Mitgliedern einer Gesellschaft eingehalten werden sollen.
 &lt;/p&gt;
@@ -15655,6 +15776,7 @@ Source: https://en.wikipedia.org/wiki/Law
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfMaterial -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 A material is a substance or mixture of substances that constitutes an object. Materials can be pure or impure, living or non-living matter. Materials can be classified based on their physical and chemical properties, or on their geological origin or biological function. Materials science is the study of materials and their applications.
 &lt;/p&gt;
@@ -15690,6 +15812,7 @@ Quelle: https://de.wikipedia.org/wiki/Material_(Fertigungstechnik)
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfMeasure -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="de">Thematik „Maßnahme“</rdfs:label>
         <rdfs:label xml:lang="en">Topic of “Measure”</rdfs:label>
     </owl:Class>
@@ -15699,6 +15822,7 @@ Quelle: https://de.wikipedia.org/wiki/Material_(Fertigungstechnik)
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfStakeholder -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfStakeholder">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Als Stakeholder [ˈsteɪkhoʊldə] (deutsch „Teilhaber“ oder Anspruchsberechtigter) wird eine Person oder Gruppe bezeichnet, die ein berechtigtes Interesse am Verlauf oder Ergebnis eines Prozesses oder Projektes hat. In der Betriebswirtschaftslehre wird Stakeholder als Anspruchsgruppe übersetzt.
 &lt;/p&gt;
@@ -15729,6 +15853,7 @@ siehe Fragebogen: Behörden, Verband, Wissenschaftliche Einrichtungen, Fachgremi
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfTechnology -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfTechnology">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Technologie im heutigen Sinne ist die Wissenschaft und Lehre von der Technik zur Planung und Herstellung von Industrieprodukten. Sie erforscht und vermittelt im Wesentlichen technisches Know-how zur Gestaltung verfahrens- und anwendungstechnischer Prozesse in Industriebetrieben einschließlich der Planung und Bereitstellung der erforderlichen Betriebsmittel und technischen Dokumentationen.
 &lt;/p&gt;
@@ -15756,6 +15881,7 @@ Source: https://en.wikipedia.org/wiki/Technology
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfVegetation -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#TopicOfVegetation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Die Vegetation ist die Gesamtheit der Pflanzenformationen und Pflanzengesellschaften, die in einem Gebiet wachsen. Die Vegetation wird geprägt durch Klima, Boden, Relief, Gestein, Wasserhaushalt und durch die Einflüsse von Feuer, von Tieren und durch Menschen. Die durch das Großklima beeinflussten Vegetationsformationen sind auf der Erde zonal in Vegetationszonen angeordnet (hauptsächlich entsprechend den Klimazonen). Bei kleinräumigen Untersuchungen wird auch oft von einer Pflanzendecke gesprochen, bei der wissenschaftlichen Aufnahme spricht man generell von einer Vegetationsaufnahme. Im Falle eines Schadfeuers, bei dem primär die Flora betroffen ist, spricht man von Vegetationsbränden.
 &lt;/p&gt;
@@ -16165,8 +16291,8 @@ Siehe auch: https://www.icomos.org/18thapril/18april2003.htm
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Undermining">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Damage"/>
+        <rdfs:label xml:lang="de">Aushöhlung</rdfs:label>
         <rdfs:label xml:lang="en">Undermining</rdfs:label>
-        <rdfs:label xml:lang="de">Unterspülung</rdfs:label>
     </owl:Class>
     
 
@@ -16425,9 +16551,9 @@ Hoch-realistische 3D Rekonstruktion von Personen, wie z.B. Zeitzeugen, historisc
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Voxel-BasedFiniteElementModel -->
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#VoxelBasedFiniteElementModel -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Voxel-BasedFiniteElementModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#VoxelBasedFiniteElementModel">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#DigitalTwin"/>
         <rdfs:label xml:lang="en">Voxel-Based Finite Element Model</rdfs:label>
         <rdfs:label xml:lang="de">voluminetrisches Finite-Elemente-Modell</rdfs:label>
@@ -16699,31 +16825,6 @@ Quelle: https://de.wikipedia.org/wiki/Holz
     
 
 
-    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#X-RayMicrotomography -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#X-RayMicrotomography">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ComputedTomography"/>
-        <rdfs:comment xml:lang="de">&lt;p&gt;
-What is micro-CT scanning?
-&lt;/p&gt;
-
-&lt;p&gt;
-Micro-CT is a 3D imaging technique utilizing X-rays to see inside an object, slice by slice.  Micro-CT, also called microtomography or micro computed tomography, is similar to hospital CT or “CAT” scan imaging but on a small scale with greatly increased resolution. Samples can be imaged with pixel sizes as small as 100 nanometers and objects can be scanned as large as 200 millimeters in diameter.
-&lt;/p&gt;
-
-&lt;p&gt;
-Micro-CT scanners capture a series of 2D planar X-ray images and reconstruct the data into 2D cross-sectional slices. These slices can be further processed into 3D models and even printed as 3D physical objects for analysis. With 2D X-ray systems you can see through an object, but with the power of 3D micro- CT systems you can see inside the object and reveal its internal features. It provides volumetric information about the microstructure, nondestructively.
-&lt;/p&gt;
-
-&lt;p&gt;
-Source: https://www.microphotonics.com/what-is-micro-ct-an-introduction/
-&lt;/p&gt;</rdfs:comment>
-        <rdfs:label xml:lang="de">Mikro-CT</rdfs:label>
-        <rdfs:label xml:lang="en">X-Ray Microtomography</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#XPS -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#XPS">
@@ -16763,6 +16864,31 @@ Quelle: https://www.chemie.de/lexikon/R%C3%B6ntgenfluoreszenzanalyse.html
         <rdfs:comment>Auch bekannt als &quot;Röntgenfluoreszenzspektroskopie (RFS)&quot;</rdfs:comment>
         <rdfs:label xml:lang="de">Röntgenfluoreszenzanalyse (RFA)</rdfs:label>
         <rdfs:label xml:lang="en">X-Ray Fluorescence (XRF) Spectroscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#XRayMicrotomography -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#XRayMicrotomography">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#ComputedTomography"/>
+        <rdfs:comment xml:lang="de">&lt;p&gt;
+What is micro-CT scanning?
+&lt;/p&gt;
+
+&lt;p&gt;
+Micro-CT is a 3D imaging technique utilizing X-rays to see inside an object, slice by slice.  Micro-CT, also called microtomography or micro computed tomography, is similar to hospital CT or “CAT” scan imaging but on a small scale with greatly increased resolution. Samples can be imaged with pixel sizes as small as 100 nanometers and objects can be scanned as large as 200 millimeters in diameter.
+&lt;/p&gt;
+
+&lt;p&gt;
+Micro-CT scanners capture a series of 2D planar X-ray images and reconstruct the data into 2D cross-sectional slices. These slices can be further processed into 3D models and even printed as 3D physical objects for analysis. With 2D X-ray systems you can see through an object, but with the power of 3D micro- CT systems you can see inside the object and reveal its internal features. It provides volumetric information about the microstructure, nondestructively.
+&lt;/p&gt;
+
+&lt;p&gt;
+Source: https://www.microphotonics.com/what-is-micro-ct-an-introduction/
+&lt;/p&gt;</rdfs:comment>
+        <rdfs:label xml:lang="de">Mikro-CT</rdfs:label>
+        <rdfs:label xml:lang="en">X-Ray Microtomography</rdfs:label>
     </owl:Class>
     
 
@@ -17786,7 +17912,7 @@ The source of this entry is &lt;em&gt;D1.3 - Definition of methodologies for cli
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#FraunhoferGesellschaft_Prototype -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#FraunhoferGesellschaft_Prototype">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#Fraunhofer-Gesellschaft"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#FraunhoferGesellschaft"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 https://www.fraunhofer.de/
 &lt;/p&gt;</rdfs:comment>
