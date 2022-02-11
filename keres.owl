@@ -3009,7 +3009,7 @@ The specified revenue contributes to the direct economic value.
     <!-- https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#District_hasKey_int -->
 
     <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#District_hasKey_int">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#District"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#AdmnistrativeUnit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment xml:lang="de">&lt;p&gt;
 Der Amtliche Gemeindeschlüssel (AGS), früher auch Amtliche Gemeindekennzahl (GKZ), Gemeindekennziffer oder Gemeindeschlüsselzahl, ist eine Zahlenfolge zur Identifizierung politisch selbständiger Städte, Gemeinden oder gemeindefreier Gebiete in Deutschland.
@@ -23888,7 +23888,7 @@ Quelle: https://de.wikipedia.org/wiki/K%C3%B6ln
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#UrbanDistrict_Cottbus">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#UrbanDistrict"/>
         <ROI_isLocatedIn_ROI rdf:resource="https://raw.githubusercontent.com/FraunhoferIOSB/KERES/main/keres.owl#AreaState_Brandenburg"/>
-        <District_hasKey_int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12054</District_hasKey_int>
+        <District_hasKey_int rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12052</District_hasKey_int>
         <rdfs:comment xml:lang="en">&lt;p&gt;
 Cottbus (German pronunciation: [ˈkɔtbʊs]; Lower Sorbian: Chóśebuz, pronounced [ˈxɨɕɛbus]) is a university city and the second-largest city in Brandenburg, Germany. Situated around 125 km (78 mi) southeast of Berlin, on the River Spree, Cottbus is also a major railway junction with extensive sidings/depots. Although only a small Sorbian minority lives in Cottbus itself, the city is considered as the political and cultural center of the Sorbs in Lower Lusatia.
 &lt;/p&gt;
